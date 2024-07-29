@@ -25,3 +25,8 @@ body:
     attributes:
       label: Login credentials
       description: If you have any login credentials, please provide them here.
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket link
+      description: If you have a support ticket, please provide the link here.
