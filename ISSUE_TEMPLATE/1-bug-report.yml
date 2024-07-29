@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a bug if something isn't working as expected
+labels: ["bug"]
+body:
+  - type: textarea
+    id: full-description
+    attributes:
+      label: Full description
+    validations:
+      required: true
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: Expected outcome
+  - type: textarea
+    id: observed-outcome
+    attributes:
+      label: Observed/Actual outcome
+  - type: textarea
+    id: steps-to-replicate
+    attributes:
+      label: Steps to replicate
+  - type: textarea
+    id: login-credentials
+    attributes:
+      label: Login credentials
+      description: If you have any login credentials, please provide them here.
