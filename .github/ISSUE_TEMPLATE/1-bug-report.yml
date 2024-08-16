@@ -24,7 +24,7 @@ body:
     id: login-credentials
     attributes:
       label: Login credentials
-      description: If you have any login credentials, please provide them here.
+      description: If you have any login credentials, please indicate where they are stored. Do not include any sensitive information in this field.
   - type: input
     id: ticket
     attributes:
